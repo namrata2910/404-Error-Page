@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    padding-top: 25vh;
+    padding-bottom: 15vh;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+   }
+.box{
+    width: 100vh;
+    height: 70vh;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    display: grid;
+    place-items: center;
+    
+    
+   
+    
+}
+
+
+
+.box h1{
+    font-family: Lora ;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 100px;
+    color: #6d2a2a;
+  
+    
+   
+}
+.box h2{
+font-family: Lora ;
+font-style: italic;
+
+font-weight: 500;
+}
+.box button{
+    font-size: 20px;
+   font-family: Lora ;
+    width: fit-content;
+    display: grid;
+    margin-left: 75px;
+   padding: 10px 20px; /* add some padding to fit the text */
+   border: none;
+   border-radius: 50px; /* optional */
+   background-color: rgb(144, 198, 245);
+}
+ 
+.OOPs {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: -50px; 
+  
+
+}
